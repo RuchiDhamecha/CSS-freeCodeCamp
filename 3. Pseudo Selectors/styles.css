@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Poppins',sans-serif;
+}
+
+a{
+     text-decoration: none;
+     /* cursor: not-allowed; */
+      cursor: pointer;
+      color: blue;
+}
+a:visited{
+    color: rgb(231, 69, 243.0.8);
+}
+a:hover , a:focus{
+    /* color: greenyellow; */
+    opacity: 0.8;
+    /* makes it transpprent */
+}
+a:active{
+    color: red;
+    /* after clicking */
+}

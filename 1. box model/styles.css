@@ -1,0 +1,30 @@
+/* rem = rooot element 
+1 rem = 16 px */
+
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+    /* include content border and padding  */
+}
+.container{
+    border: 2px outset red;
+    font-size: 1.5rem;
+    margin: 1.5rem 2em;
+    padding:1.5em;
+    border-top: 5px dotted green ;
+    border-bottom: 5px double purple;
+    outline: 5px solid orchid;
+    outline-offset: -20px;
+    
+}
+.circle{
+    margin: 3rem auto;
+ background-color: yellow;
+ width: 100px;
+ height: 100px;
+ border-radius: 50px;
+ border: 2px solid black;
+ outline: 2px solid red;
+ outline-offset: 0.25rem;
+}

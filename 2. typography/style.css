@@ -1,0 +1,47 @@
+/* typography is the way that
+text is arranged and presented */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+
+    /* font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: cursive;
+    font-family: fantasy; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* here it will check if browser has courier new font style if nor it will apply 2nd font styles.. if that i also not available it will apply scrollbar-3dlight-color: 1st priority is to 1st font;   */
+
+    font-family: 'Poppins',fantasy;
+}
+input, button{
+    font:inherit;
+}
+p{
+    text-decoration: underline;
+    /* text-decoration: overline;
+    text-decoration: overline;
+    text-decoration: none; */
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+    /* text-transform: capitalize //initials capital; 
+    text-transform:lowercase;*/
+
+    text-align: left;
+    text-indent: 2em; 
+    /* makes look like para */
+
+    line-height: 1.5;
+    /* letter-spacing: 0.1em; */
+    word-spacing: 0.1em;
+
+    /* font-weight: bolder; */
+    font-weight: lighter;
+
+    font-style: normal;
+
+
+}

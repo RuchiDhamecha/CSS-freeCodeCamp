@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* || VARIABLES */
+  :root {
+    --HEADER-COLOR: #fafbfc;
+    --HEADER-BGCOLOR: #141415;
+    
+  }
+  
+  
+  /* || GENERAL STYLES */
+  body {
+   font-size: 1.5rem;
+  }
+  
+  html{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  header{
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+  }
+  .header{
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  .menu-button{
+    background-color: transparent;
+    border: none;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .menu-icon,
+  .menu-icon::before,
+  .menu-icon::after{
+    background-color: var(--header-color);
+    width:40px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    transition: all 0.5s;
+  }
